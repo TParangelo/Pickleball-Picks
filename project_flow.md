@@ -255,4 +255,89 @@ erDiagram
     ParlayBets }|--|| Matches : "references"
 ```
 
-[Rest of the file remains unchanged...] 
+## Key Features
+
+1. **Frontend (React)**
+   - React 18 with JavaScript
+   - React Router v6 for navigation
+   - Axios for API requests
+   - JWT token management
+   - Real-time updates using React Query
+   - Responsive design with CSS Grid/Flexbox
+   - Designed for both Desktop and Mobile
+
+2. **Backend (FastAPI)**
+   - FastAPI framework with async support
+   - SQLAlchemy ORM for database operations
+   - Pydantic for data validation
+   - APScheduler for periodic tasks
+   - BeautifulSoup4 for web scraping
+   - Mangum for AWS Lambda compatibility
+   - CORS middleware for cross-origin requests
+
+3. **Database (PostgreSQL)**
+   - AWS RDS PostgreSQL instance
+   - SQLAlchemy migrations with Alembic
+   - Foreign key constraints
+   - Indexed queries for performance
+   - Transaction management
+
+4. **ML System**
+   - Scikit-learn Random Forest models
+   - Joblib for model serialization
+   - NumPy for numerical operations
+   - Pandas for data manipulation
+   - Custom feature engineering
+   - Separate models per match type
+   - MongoDB for player statistics storage
+
+5. **DevOps & Deployment**
+   - Frontend hosted on Netlify
+   - Backend API on Render
+   - Local server on Linux machine
+   - AWS RDS for database
+   - Git version control
+   - Jira for project flow
+   - Environment-based configurations
+     
+
+## Security Features
+
+1. **Authentication**
+   - JWT-based authentication
+   - IP-based rate limiting
+   - Password hashing with bcrypt
+   - Token expiration and refresh
+   - Admin-specific endpoints protection
+   - Session management
+
+2. **Database Security**
+   - AWS RDS encryption at rest
+   - SSL/TLS encrypted connections
+   - IAM role-based access
+   - Regular automated backups
+   - Prepared statements for SQL injection prevention
+   - Sensitive data encryption
+
+3. **API Security**
+   - CORS policy configuration
+   - Request validation
+   - Input sanitization
+   - Rate limiting
+   - Error handling and logging
+   - HTTPS enforcement
+
+4. **Application Security**
+   - Environment variable protection
+   - Secure password reset flow
+   - XSS prevention
+   - CSRF protection
+   - Audit logging
+
+5. **Infrastructure Security**
+   - AWS security groups
+   - Network isolation
+   - Regular security updates
+   - Access logging
+   - IP whitelisting
+   - DDoS protection 
