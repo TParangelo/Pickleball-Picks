@@ -74,11 +74,11 @@ Pickleball-Picks is a full-stack application that allows users to make virtual p
 
 ## Project Structure
 
-
+```
 Pickleball-Picks/
 ├── frontend/           # React frontend application
 ├── backend/           # FastAPI backend application
 └── data/             # Data on players stats
-
+```
 
 
