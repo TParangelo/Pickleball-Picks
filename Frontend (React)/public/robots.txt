@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://pickleball-picks.com/sitemap.xml
+
+# Disallow admin routes
+Disallow: /admin/
+Disallow: /api/
+Disallow: /login
+Disallow: /register
+
+# Crawl-delay
+Crawl-delay: 10 

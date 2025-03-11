@@ -1,0 +1,354 @@
+.picksViewer-container{
+    background: #1E1E1E;
+    border-radius: 12px;
+    padding: 1.5rem;
+    padding-right: 0px;
+    min-height: 70vh;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.my-picks{
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin: 0 0 1.5rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.match-info strong {
+    margin: 0 4px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.match-date {
+    margin-left: 4px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.match-type {
+    font-weight: 500;
+}
+.tab{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.active-button{
+    padding: 0.75rem 1.5rem;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.7);
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.active-button:hover{
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.active-button.active{
+    background: #4CAF50;
+    color: #fff;
+    border-color: #4CAF50;
+}
+
+.picks{
+    overflow-y: auto;
+    max-height: 60vh;
+}
+
+.str-label{
+    text-align: center;
+    margin-left: 2vw;
+    border: 1px solid black;
+    width: min(140px, 25%);
+    border-radius: 8px;
+    background-color: #050505;
+}
+
+.empty-text{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 1rem;
+}
+
+.straight-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.pick-slip-item-submitted{
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 1rem;
+    transition: background-color 0.2s ease;
+    margin-right: 1.5rem;
+}
+
+
+.pick-slip-item-submitted:hover{
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.top-half{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.75rem;
+}
+
+.top-half2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.75rem;
+    padding-right: 1.5rem;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.winner{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.winner.won{
+    color: #4CAF50;
+}
+
+.winner.lost{
+    color: rgb(204, 0, 0);
+}
+
+.winner.live{
+    color: #fff;
+}
+
+.betType{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+}
+
+.match-info{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+}
+
+.right-side-submitted {
+    background: rgba(46, 125, 50, 0.1);
+    color: #4CAF50;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-weight: 500;
+    border: 1px solid rgba(46, 125, 50, 0.2);
+    transition: all 0.2s ease;
+}
+
+.right-side-submitted.won {
+    background: rgba(46, 125, 50, 0.1);
+    border: 1px solid rgba(46, 125, 50, 0.2);
+}
+
+.right-side-submitted.lost {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgb(204, 0, 0);
+}
+
+.right-side-submitted.live {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.odds-submitted {
+    font-weight: 500;
+}
+
+.odds-submitted.won {
+    color: #4CAF50;
+}
+
+.odds-submitted.lost {
+    color: rgb(204, 0, 0);
+}
+
+.odds-submitted.live {
+    color: #fff;
+}
+
+.split{
+    height: 1px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0.75rem 0;
+}
+
+.under{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.under.parlay{
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+.wager-info-submitted,
+.payout-info{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.risk{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+}
+
+.risk-amount{
+    color: #fff;
+    font-weight: 500;
+}
+
+.parlay-ticket1{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.parlay-ticket1:first-of-type{
+    margin-top: 20px;
+}
+
+.parlay-ticket2{
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.top-parlay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.parlay-length{
+    color: #fff;
+    font-weight: 500;
+}
+
+.parlay-length.won {
+    color: #4CAF50;
+}
+
+.total-odds{
+    background: rgba(46, 125, 50, 0.1);
+    color: #4CAF50;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-weight: 500;
+    border: 1px solid rgba(46, 125, 50, 0.2);
+}
+
+.total-odds.lost {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgb(204, 0, 0);
+}
+
+.total-odds.live {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.parlay-bet-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.pick-slip-item-submitted.parlay{
+    margin-left: 2%;
+    margin-right: 5%;;
+    padding: 1% 0px;
+    padding-left: 3%;
+}
+.pick-slip-item-submitted.parlay:last-of-type{
+    border: none;
+}
+
+@media (max-width: 1100px) {
+    .picksViewer-container{
+        margin-right: 0px;
+        min-height: 20vh;
+        max-height: 70vh;
+    }
+
+    .picks{
+        max-height: 43vh;
+    }
+}
+
+@media (max-width: 700px) {
+    .betType {
+        font-size: 0.7rem;
+    }
+    .match-info{
+        font-size: 0.7rem;
+    }
+}
+
+.make-picks-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+
+
+.make-picks-btn {
+    
+    padding: 0.75rem 1.5rem;
+    background: transparent;
+    border: 1px solid #4CAF50;
+    color: #4CAF50;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 1rem;
+    margin-top: 1rem;
+    width: fit-content;
+}
+
+.make-picks-btn:hover {
+    background: #4CAF50;
+    color: white;
+}

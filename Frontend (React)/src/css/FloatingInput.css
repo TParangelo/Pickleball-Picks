@@ -1,0 +1,36 @@
+.floating-input {
+    position: relative;
+    width: 95%;  /* This makes the container take up the full width */
+}
+
+.floating-input input {
+    margin: 20px 2px;  /* Adjust margin if needed */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+    background: #ffffff;
+    color: black;
+    width: 100%;  /* Make the input field fill the container */
+}
+
+.floating-input label {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #aaa;
+    transition: 0.3s ease;
+    pointer-events: none;
+}
+
+/* Move label to the top when focused or filled */
+.floating-input.filled label,
+.floating-input input:focus + label {
+    transform: translateY(-2.5rem) translateX(-12%) scale(0.8);
+    font-size: 14px;
+    color: #ffffff;
+}

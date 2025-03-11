@@ -1,0 +1,41 @@
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem;
+    background: #121212;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.stats-side {
+    flex: 1;
+    max-width: 500px;
+}
+
+.picks-side {
+    flex: 2;
+}
+
+.blank-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #121212;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1100px) {
+    .profile-container {
+        flex-direction: column-reverse;
+        padding: 1rem;
+        gap: 2rem;
+    }
+
+    .stats-side {
+        max-width: 100%;
+    }
+}

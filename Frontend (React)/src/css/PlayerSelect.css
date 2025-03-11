@@ -1,0 +1,50 @@
+/* src/css/PlayerSelect.css */
+
+.player-select {
+    position: relative;
+    width: 100%;
+}
+
+.player-select input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.player-select input:focus {
+    border-color: #4CAF50; /* Change border color on focus */
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    color: black;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0; /* Highlight on hover */
+}
+
+.player-select input::placeholder {
+    color: #ffffff;
+}

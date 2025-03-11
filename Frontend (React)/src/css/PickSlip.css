@@ -1,0 +1,405 @@
+.pick-slip {
+  position: fixed;
+  right: 40px;
+  bottom: 35px;
+  padding: 10px;
+  background: #1E1E1E;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  width: 500px;
+  min-height: 300px;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(calc(100% - 50px));
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.pick-slip.visible {
+  transform: translateY(-5%);
+  opacity: 1;
+}
+
+.match-info strong {
+  margin: 0 4px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.match-date {
+  margin-left: 4px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.match-type {
+  font-weight: 500;
+}
+
+
+.pick-slip.at-bottom {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(100%);
+}
+
+.hidden{
+  display: none;
+}
+
+.hidden-submitting{
+  display: none;
+}
+
+.always-visible{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.title-picks{
+  margin: 5px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.toggle-button {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+  background: transparent;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  padding: 0;
+  margin: 0;
+}
+
+.toggle-button svg {
+  width: 28px;
+  height: 28px;
+  color: rgba(255, 255, 255, 0.7);
+  transition: all 0.2s ease;
+
+}
+
+.toggle-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.toggle-button:hover svg {
+  color: #fff;
+}
+
+.empty{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 8px;
+  height: 230px;
+}
+
+
+.empty-pick-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.pick-slip ul {
+  list-style: none;
+  padding: 0;
+  height: 250px;
+}
+
+.pick-slip-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+.pick-slip-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.left-side {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.match-info {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+}
+
+.teams {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.winner {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.right-side{
+  position: relative;
+  top: 0px;
+  /* border: 2px solid green; */
+  width:80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.odds {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #4CAF50;
+  margin-right: 10px;
+}
+
+.tooltip {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3em;
+  border: 1px solid rgba(76, 175, 80, 0.2);
+  background-color: rgba(76, 175, 80, 0.1);
+  border-radius: 1.25em;
+  transition: all 0.2s ease;
+}
+
+.tooltip:hover {
+  background-color: rgba(76, 175, 80, 0.2);
+}
+
+.tooltip .tooltiptext {
+  background-color: rgba(30, 30, 30, 0.95);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tooltip .tooltiptext::after {
+  border-color: transparent rgba(30, 30, 30, 0.95) transparent transparent;
+}
+
+.bottom-ticket{
+  position: relative;
+  top: 0px;
+  
+  height: 200px;
+  background-color: #1E1E1E;
+  z-index: 10;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+}
+
+.picks-scroll {
+  max-height: 300px; /* Set the maximum height for the scroll area */
+  overflow-y: auto;  /* Enable vertical scrolling when content overflows */
+  position: relative; /* Establish positioning context if needed */
+  z-index: 1;         /* Lower z-index so it appears behind elements with higher z-index */
+}
+
+.bal-odds{
+  margin: 6px 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.wager-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+
+.input-side, .payout-side {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;  /* Make both sides take equal space */
+}
+
+.wager-label, .toWin-label {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.wager-input, .toWin-number {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  width: 100%;  /* Take full width of parent */
+  height: 40px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  transition: all 0.2s ease;
+  font-family: inherit;
+  padding: 0 1rem;  /* Consistent padding */
+  box-sizing: border-box;  /* Include padding in width calculation */
+  display: flex;
+  align-items: center;  /* Center content vertically */
+}
+
+.wager-input {
+  padding-left: 1rem;  /* Consistent left padding */
+}
+
+.toWin-number {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.wager-input:focus {
+  border-color: #4CAF50;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.submit-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  margin-top: 20px;
+  gap: 1rem;
+}
+
+.submit-picks {
+  margin-top: 0;
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  background: #4CAF50;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.profile-nav-button {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.profile-nav-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.profile-nav-button svg {
+  width: 16px;
+  height: 16px;
+}
+
+.submit-picks:hover{
+  background: #45a049;
+}
+
+.submit-picks:disabled{
+  background: rgba(76, 175, 80, 0.3);
+  cursor: not-allowed;
+}
+
+.submit-picks div {
+  width: 100%;
+  text-align: center;
+}
+
+.submit-picks div:not(.hidden) {
+  display: block;
+}
+
+.wager-input.invalid {
+  border-color: #ff4444;
+  background-color: rgba(255, 68, 68, 0.1);
+}
+
+.error-message {
+  background-color: rgba(255, 0, 0, 0.1);
+  color: #ff4444;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  text-align: center;
+  border: 1px solid rgba(255, 0, 0, 0.2);
+}
+
+.submit-picks.disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  background: #666;
+}
+
+.submit-picks.create-account {
+  background: #4CAF50;
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.submit-picks.create-account:hover {
+  background: #45a049;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2);
+}
+
+@media (max-width: 860px) {
+  .pick-slip {
+    left: 50%;
+    transform: translateX(-50%) translateY(calc(100% - 50px));; /* Keeps it centered and initially hidden */
+  }
+
+  .pick-slip.visible {
+    transform: translateX(-50%) translateY(0); /* Moves it up when visible */
+  }
+}
+
+@media (max-width: 500px) {
+  .pick-slip{
+    width: 90vw;
+  }
+  .match-info{
+    font-size: .8rem;
+  }
+}

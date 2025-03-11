@@ -1,0 +1,938 @@
+/* Admin Login Styles */
+.admin-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1a1a1a;
+}
+
+.admin-login-card {
+    background: #2a2a2a;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.admin-login-card h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.admin-form-group {
+    margin-bottom: 1rem;
+}
+
+.admin-form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+    font-size: 1rem;
+}
+
+.admin-form-group input:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.admin-submit-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.admin-submit-btn:hover {
+    background: #45a049;
+}
+
+.admin-submit-btn:disabled {
+    background: #666;
+    cursor: not-allowed;
+}
+
+.admin-error {
+    color: #ff6b6b;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background: rgba(255, 107, 107, 0.1);
+    border-radius: 4px;
+}
+
+/* Admin Dashboard Styles */
+.admin-dashboard {
+    padding: 2rem;
+    background: #1a1a1a;
+    min-height: 100vh;
+    color: white;
+}
+
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.admin-logout-btn {
+    padding: 0.5rem 1rem;
+    background: transparent;
+    border: 1px solid #ff6b6b;
+    color: #ff6b6b;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.admin-logout-btn:hover {
+    background: #ff6b6b;
+    color: white;
+}
+
+.admin-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+
+.admin-stat-card {
+    background: #2a2a2a;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.admin-stat-card:hover {
+    transform: translateY(-2px);
+    border-color: #4CAF50;
+}
+
+.admin-stat-card h3 {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.admin-stat-card p {
+    color: #4CAF50;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.admin-actions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.admin-action-btn {
+    padding: 1rem;
+    background: #2a2a2a;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 1rem;
+}
+
+.admin-action-btn:hover {
+    background: #4CAF50;
+    border-color: #4CAF50;
+}
+
+.admin-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* Admin Matches Styles */
+.admin-matches {
+    padding: 2rem;
+    background: #1a1a1a;
+    min-height: 100vh;
+    color: white;
+}
+
+.admin-controls {
+    margin-bottom: 2rem;
+}
+
+.admin-search {
+    margin-bottom: 1rem;
+}
+
+.admin-search-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+
+.admin-search-input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.admin-search-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.no-matches {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 2rem;
+    background: #2a2a2a;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.admin-back-btn {
+    padding: 0.5rem 1rem;
+    background: transparent;
+    border: 1px solid #4CAF50;
+    color: #4CAF50;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.admin-back-btn:hover {
+    background: #4CAF50;
+    color: white;
+}
+
+.admin-filters {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.admin-filter-btn {
+    padding: 0.5rem 1.5rem;
+    background: #2a2a2a;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.admin-filter-btn:hover {
+    border-color: #4CAF50;
+}
+
+.admin-filter-btn.active {
+    background: #4CAF50;
+    border-color: #4CAF50;
+}
+
+.admin-matches-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.admin-match-card {
+    background: #2a2a2a;
+    border-radius: 8px;
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.admin-match-card:hover {
+    transform: translateY(-2px);
+    border-color: #4CAF50;
+}
+
+.match-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.match-date-admin {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.match-status-badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.match-status-badge.pending {
+    background: rgba(76, 175, 80, 0.1);
+    color: #4CAF50;
+}
+
+.match-status-badge.started {
+    background: rgba(255, 215, 0, 0.1);
+    color: #ffd700;
+}
+
+.match-status-badge.final {
+    background: rgba(255, 107, 107, 0.1);
+    color: #ff6b6b;
+}
+
+.match-teams {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.match-teams .team {
+    font-weight: 500;
+    margin: 0.5rem 0;
+}
+
+.match-teams .vs {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+}
+
+.match-status {
+    text-align: center;
+    padding: 0.5rem;
+    background: rgba(76, 175, 80, 0.1);
+    border-radius: 4px;
+    color: #4CAF50;
+    margin-bottom: 1rem;
+}
+
+.match-actions {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.start-match-btn,
+.set-winner-btn,
+.delete-match-btn {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 0.9rem;
+    background: transparent;
+}
+
+.start-match-btn {
+    border: 1px solid #4CAF50;
+    color: #4CAF50;
+}
+
+.start-match-btn:hover {
+    background: #4CAF50;
+    color: white;
+}
+
+.set-winner-btn {
+    border: 1px solid #ffd700;
+    color: #ffd700;
+}
+
+.set-winner-btn:hover {
+    background: #ffd700;
+    color: #1a1a1a;
+}
+
+.delete-match-btn {
+    border: 1px solid #ff6b6b;
+    color: #ff6b6b;
+}
+
+.delete-match-btn:hover {
+    background: #ff6b6b;
+    color: white;
+}
+
+/* Admin Users Styles */
+.admin-users {
+    padding: 2rem;
+    background: #1a1a1a;
+    min-height: 100vh;
+    color: white;
+}
+
+.admin-users-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.admin-user-card {
+    background: #2a2a2a;
+    border-radius: 8px;
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.admin-user-card:hover {
+    transform: translateY(-2px);
+    border-color: #4CAF50;
+}
+
+.user-info-admin {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.user-header-admin {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.user-id-admin {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.85rem;
+}
+
+.user-username-admin {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.user-balance-admin {
+    font-size: 1.2rem;
+    color: #4CAF50;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+.user-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.update-balance-btn {
+    padding: 0.5rem 1rem;
+    background: transparent;
+    border: 1px solid #4CAF50;
+    color: #4CAF50;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.update-balance-btn:hover {
+    background: #4CAF50;
+    color: white;
+}
+
+.no-users {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 2rem;
+    background: #2a2a2a;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Admin Add Match Styles */
+.admin-add-match {
+    padding: 2rem;
+    background: #1a1a1a;
+    min-height: 100vh;
+    color: white;
+}
+
+.admin-match-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #2a2a2a;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.admin-match-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.admin-match-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+}
+
+.admin-match-form input,
+.admin-match-form select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+    font-size: 1rem;
+}
+
+.admin-match-form input:focus,
+.admin-match-form select:focus {
+    outline: none;
+    border-color: #4CAF50;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.admin-match-form input::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.admin-match-form select {
+    cursor: pointer;
+}
+
+.admin-match-form select option {
+    background: #2a2a2a;
+    color: white;
+}
+
+.admin-match-form .admin-submit-btn {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.odds-slider {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.odds-controls {
+    margin: 1rem 0;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.rake-input-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.rake-input-container label {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.rake-value {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.rake-input {
+    width: 60px;
+    padding: 4px 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #4CAF50;
+    font-weight: 500;
+    text-align: right;
+    -moz-appearance: textfield;
+}
+
+.rake-input::-webkit-inner-spin-button,
+.rake-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.rake-input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.team-label {
+    color: white;
+    font-size: 0.9rem;
+    min-width: 120px;
+}
+
+.slider-with-value {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.probability-slider {
+    flex: 1;
+    height: 4px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    outline: none;
+}
+
+.probability-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    background: #4CAF50;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.probability-slider::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+    background: #45a049;
+}
+
+.probability-slider::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    background: #4CAF50;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: none;
+}
+
+.probability-slider::-moz-range-thumb:hover {
+    transform: scale(1.2);
+    background: #45a049;
+}
+
+.probability-value {
+    color: #4CAF50;
+    font-weight: 500;
+    min-width: 50px;
+    text-align: center;
+}
+
+.odds-display {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+.odds-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.odds-label {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+}
+
+.odds-value {
+    color: #4CAF50;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.probability-input-container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    min-width: 80px;
+}
+
+.probability-input {
+    width: 50px;
+    padding: 4px 6px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #4CAF50;
+    font-weight: 500;
+    text-align: right;
+    -moz-appearance: textfield;
+}
+
+.probability-input::-webkit-inner-spin-button,
+.probability-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.probability-input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.percentage-symbol {
+    color: #4CAF50;
+    font-weight: 500;
+}
+
+/* Winner Selection Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: #2a2a2a;
+    padding: 2rem;
+    border-radius: 8px;
+    min-width: 300px;
+    max-width: 90%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.modal-content h2 {
+    color: white;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.winner-options {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.winner-option {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.winner-option:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.winner-option input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.winner-option span {
+    color: white;
+    font-size: 1rem;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.modal-submit {
+    padding: 0.75rem 1.5rem;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.modal-submit:hover {
+    background: #45a049;
+}
+
+.modal-cancel {
+    padding: 0.75rem 1.5rem;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.modal-cancel:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+
+/* src/css/PlayerSelect.css */
+.player-select2 {
+    position: relative;
+    width: 100%;
+}
+
+.player-select2 input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background: #f0f0f0;
+}
+
+
+/* src/css/admin/AddMatchHelper.css */
+
+.help-btn {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    margin-left: 10px; /* Space between the back button and help button */
+    align-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+.help-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    width:35%;
+}
+
+.above-help-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    width:35%;
+}
+
+.help-data-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.team1-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    line-height: 0.05;
+    color: #00ff00;
+}
+
+.team2-stats {
+    display: flex;
+    flex-direction: column;
+    line-height: 0.05;
+    color: #5862f1;
+}
+
+.help-data {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.help-data-win-prob {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+
+

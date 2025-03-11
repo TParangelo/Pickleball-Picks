@@ -1,0 +1,14 @@
+.appear {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition */
+    display: inline-block; /* Ensure it does not affect the layout */
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.appear.visible {
+    opacity: 1;
+    transform: translateY(0);
+}

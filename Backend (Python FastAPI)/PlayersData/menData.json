@@ -1,0 +1,1169 @@
+{
+    " ":{
+        "doubles": {
+            "rank": -1,
+            "points": 15100.0,
+            "rating": 6.999,
+            "record": "74-20"
+        }
+    },
+    "F. Staksrud": {
+        "doubles": {
+            "rank": 1,
+            "points": 15100.0,
+            "rating": 6.999,
+            "record": "74-20"
+        },
+        "mixed": {
+            "rank": 4,
+            "points": 7700.0,
+            "record": "48-26"
+        },
+        "singles": {
+            "rank": 1,
+            "points": 20100.0,
+            "rating": 7.145,
+            "record": "97-17"
+        }
+    },
+    "B. Johns": {
+        "doubles": {
+            "rank": 4,
+            "points": 14100.0,
+            "rating": 7.391,
+            "record": "64-19"
+        },
+        "mixed": {
+            "rank": 1,
+            "points": 24000.0,
+            "record": "98-2"
+        },
+        "singles": {
+            "rank": 2,
+            "points": 11400.0,
+            "rating": 7.096,
+            "record": "45-8"
+        }
+    },
+    "C. Garnett": {
+        "doubles": {
+            "rank": 17,
+            "points": 5200.0,
+            "rating": 6.736,
+            "record": "38-21"
+        },
+        "mixed": {
+            "rank": 21,
+            "points": 2125.0,
+            "record": "20-18"
+        },
+        "singles": {
+            "rank": 3,
+            "points": 11200.0,
+            "rating": 6.906,
+            "record": "54-22"
+        }
+    },
+    "H. Johnson": {
+        "doubles": {
+            "rank": 28,
+            "points": 2800.0,
+            "rating": 6.622,
+            "record": "21-18"
+        },
+        "mixed": {
+            "rank": 24,
+            "points": 1825.0,
+            "record": "25-16"
+        },
+        "singles": {
+            "rank": 4,
+            "points": 9325.0,
+            "rating": 7.051,
+            "record": "48-16"
+        }
+    },
+    "T. McGuffin": {
+        "doubles": {
+            "rank": 11,
+            "points": 9850.0,
+            "rating": 6.775,
+            "record": "47-19"
+        },
+        "mixed": {
+            "rank": 11,
+            "points": 4500.0,
+            "record": "31-18"
+        },
+        "singles": {
+            "rank": 5,
+            "points": 7275.0,
+            "rating": 6.861,
+            "record": "36-22"
+        }
+    },
+    "Q. Duong": {
+        "doubles": {
+            "rank": 22,
+            "points": 4525.0,
+            "rating": 6.6,
+            "record": "32-22"
+        },
+        "mixed": {
+            "rank": 17,
+            "points": 2575.0,
+            "record": "30-24"
+        },
+        "singles": {
+            "rank": 6,
+            "points": 6850.0,
+            "rating": 6.92,
+            "record": "44-23"
+        }
+    },
+    "J. Vich": {
+        "doubles": {
+            "rank": 14,
+            "points": 7150.0,
+            "rating": 6.703,
+            "record": "40-23"
+        },
+        "mixed": {
+            "rank": 15,
+            "points": 2825.0,
+            "record": "31-19"
+        },
+        "singles": {
+            "rank": 7,
+            "points": 6750.0,
+            "rating": 6.864,
+            "record": "37-21"
+        }
+    },
+    "C. Alshon": {
+        "doubles": {
+            "rank": 10,
+            "points": 10150.0,
+            "rating": 7.132,
+            "record": "52-17"
+        },
+        "mixed": {
+            "rank": 3,
+            "points": 11450.0,
+            "record": "52-20"
+        },
+        "singles": {
+            "rank": 8,
+            "points": 5300.0,
+            "rating": 6.96,
+            "record": "28-14"
+        }
+    },
+    "D. Frazier": {
+        "doubles": {
+            "rank": 5,
+            "points": 13500.0,
+            "rating": 6.859,
+            "record": "61-16"
+        },
+        "mixed": {
+            "rank": 13,
+            "points": 3900.0,
+            "record": "35-17"
+        },
+        "singles": {
+            "rank": 9,
+            "points": 4850.0,
+            "rating": 6.818,
+            "record": "27-22"
+        }
+    },
+    "J. Sock": {
+        "doubles": {
+            "rank": 45,
+            "points": 1550.0,
+            "rating": 6.563,
+            "record": "16-16"
+        },
+        "mixed": {
+            "rank": 18,
+            "points": 2525.0,
+            "record": "22-16"
+        },
+        "singles": {
+            "rank": 10,
+            "points": 4275.0,
+            "rating": 6.789,
+            "record": "28-18"
+        }
+    },
+    "M. Loyd": {
+        "doubles": {
+            "rank": 49,
+            "points": 1400.0,
+            "rating": 6.265,
+            "record": "17-19"
+        },
+        "mixed": {
+            "rank": 43,
+            "points": 775.0,
+            "record": "14-19"
+        },
+        "singles": {
+            "rank": 11,
+            "points": 3650.0,
+            "rating": 6.553,
+            "record": "25-19"
+        }
+    },
+    "C. Haworth": {
+        "doubles": {
+            "rank": 117,
+            "points": 250.0,
+            "rating": 6.219,
+            "record": "11-5"
+        },
+        "mixed": {
+            "rank": 84,
+            "points": 112.5,
+            "record": "7-3"
+        },
+        "singles": {
+            "rank": 13,
+            "points": 3175.0,
+            "rating": 6.931,
+            "record": "20-4"
+        }
+    },
+    "P. Tellez": {
+        "doubles": {
+            "rank": 12,
+            "points": 9600.0,
+            "rating": 6.623,
+            "record": "57-25"
+        },
+        "mixed": {
+            "rank": 15,
+            "points": 2825.0,
+            "record": "34-24"
+        },
+        "singles": {
+            "rank": 14,
+            "points": 3000.0,
+            "rating": 6.49,
+            "record": "27-25"
+        }
+    },
+    "R. Bellamy": {
+        "doubles": {
+            "rank": 48,
+            "points": 1450.0,
+            "rating": 6.121,
+            "record": "17-18"
+        },
+        "mixed": {
+            "rank": 39,
+            "points": 812.5,
+            "record": "14-15"
+        },
+        "singles": {
+            "rank": 15,
+            "points": 2525.0,
+            "rating": 6.57,
+            "record": "26-16"
+        }
+    },
+    "G. Joseph": {
+        "doubles": {
+            "rank": 75,
+            "points": 625.0,
+            "rating": 5.955,
+            "record": "7-10"
+        },
+        "mixed": {
+            "rank": 77,
+            "points": 125.0,
+            "record": "2-6"
+        },
+        "singles": {
+            "rank": 16,
+            "points": 2500.0,
+            "rating": 6.6,
+            "record": "25-18"
+        }
+    },
+    "Y. Johnson": {
+        "doubles": {
+            "rank": 57,
+            "points": 1175.0,
+            "rating": 6.22,
+            "record": "13-17"
+        },
+        "mixed": {
+            "rank": 53,
+            "points": 612.5,
+            "record": "10-11"
+        },
+        "singles": {
+            "rank": 17,
+            "points": 2200.0,
+            "rating": 6.502,
+            "record": "26-16"
+        }
+    },
+    "G. Tardio": {
+        "doubles": {
+            "rank": 8,
+            "points": 11300.0,
+            "rating": 6.878,
+            "record": "58-15"
+        },
+        "mixed": {
+            "rank": 7,
+            "points": 5900.0,
+            "record": "43-19"
+        },
+        "singles": {
+            "rank": 18,
+            "points": 2187.5,
+            "rating": 6.754,
+            "record": "18-12"
+        }
+    },
+    "R. Hewett": {
+        "doubles": {
+            "rank": 26,
+            "points": 3400.0,
+            "rating": 6.491,
+            "record": "30-25"
+        },
+        "mixed": {
+            "rank": 30,
+            "points": 1087.5,
+            "record": "14-21"
+        },
+        "singles": {
+            "rank": 19,
+            "points": 2000.0,
+            "rating": 6.364,
+            "record": "20-23"
+        }
+    },
+    "E. Roddy": {
+        "doubles": {
+            "rank": 53,
+            "points": 1250.0,
+            "rating": 6.215,
+            "record": "16-18"
+        },
+        "mixed": {
+            "rank": 56,
+            "points": 575.0,
+            "record": "3-14"
+        },
+        "singles": {
+            "rank": 20,
+            "points": 1950.0,
+            "rating": 6.487,
+            "record": "23-19"
+        }
+    },
+    "C. Shick": {
+        "doubles": {
+            "rank": 35,
+            "points": 1750.0,
+            "rating": 6.286,
+            "record": "20-20"
+        },
+        "mixed": {
+            "rank": 27,
+            "points": 1400.0,
+            "record": "24-19"
+        },
+        "singles": {
+            "rank": 21,
+            "points": 1925.0,
+            "rating": 6.42,
+            "record": "18-19"
+        }
+    },
+    "G. Goldin": {
+        "doubles": {
+            "rank": 70,
+            "points": 700.0,
+            "rating": 5.986,
+            "record": "25-12"
+        },
+        "mixed": {
+            "rank": 68,
+            "points": 237.5,
+            "record": "18-11"
+        },
+        "singles": {
+            "rank": 22,
+            "points": 1675.0,
+            "rating": 6.432,
+            "record": "39-12"
+        }
+    },
+    "D. Young": {
+        "doubles": {
+            "rank": 41,
+            "points": 1637.5,
+            "rating": 6.39,
+            "record": "16-16"
+        },
+        "mixed": {
+            "rank": 59,
+            "points": 537.5,
+            "record": "7-13"
+        },
+        "singles": {
+            "rank": 23,
+            "points": 1637.5,
+            "rating": 6.503,
+            "record": "19-17"
+        }
+    },
+    "C. Campbell": {
+        "doubles": {
+            "rank": 75,
+            "points": 625.0,
+            "rating": 5.453,
+            "record": "8-15"
+        },
+        "mixed": {
+            "rank": 71,
+            "points": 200.0,
+            "record": "10-13"
+        },
+        "singles": {
+            "rank": 24,
+            "points": 1587.5,
+            "rating": 6.368,
+            "record": "24-16"
+        }
+    },
+    "N. Khlif": {
+        "doubles": {
+            "rank": 33,
+            "points": 2175.0,
+            "rating": 6.489,
+            "record": "21-17"
+        },
+        "mixed": {
+            "rank": 32,
+            "points": 1025.0,
+            "record": "19-12"
+        },
+        "singles": {
+            "rank": 25,
+            "points": 1562.5,
+            "rating": 6.599,
+            "record": "20-16"
+        }
+    },
+    "Z. Ford": {
+        "doubles": {
+            "rank": 93,
+            "points": 437.5,
+            "rating": 5.561,
+            "record": "14-8"
+        },
+        "mixed": {
+            "rank": 86,
+            "points": 100.0,
+            "record": "8-4"
+        },
+        "singles": {
+            "rank": 26,
+            "points": 1525.0,
+            "rating": 6.584,
+            "record": "28-8"
+        }
+    },
+    "A. Lohani": {
+        "doubles": {
+            "rank": 73,
+            "points": 675.0,
+            "rating": 6.297,
+            "record": "8-12"
+        },
+        "mixed": {
+            "rank": 151,
+            "points": 25.0,
+            "record": "0-1"
+        },
+        "singles": {
+            "rank": 27,
+            "points": 1500.0,
+            "rating": 6.389,
+            "record": "16-14"
+        }
+    },
+    "M. Alhouni": {
+        "doubles": {
+            "rank": 60,
+            "points": 1062.5,
+            "rating": 6.194,
+            "record": "13-16"
+        },
+        "mixed": {
+            "rank": 46,
+            "points": 725.0,
+            "record": "11-15"
+        },
+        "singles": {
+            "rank": 28,
+            "points": 1450.0,
+            "rating": 6.42,
+            "record": "20-16"
+        }
+    },
+    "M. Brown": {
+        "doubles": {
+            "rank": 52,
+            "points": 1325.0,
+            "rating": 6.217,
+            "record": "22-20"
+        },
+        "mixed": {
+            "rank": 43,
+            "points": 775.0,
+            "record": "10-19"
+        },
+        "singles": {
+            "rank": 29,
+            "points": 1412.5,
+            "rating": 6.362,
+            "record": "20-20"
+        }
+    },
+    "J. Arnold": {
+        "doubles": {
+            "rank": 24,
+            "points": 3550.0,
+            "rating": 6.66,
+            "record": "26-22"
+        },
+        "mixed": {
+            "rank": 22,
+            "points": 2100.0,
+            "record": "25-20"
+        },
+        "singles": {
+            "rank": 30,
+            "points": 1362.5,
+            "rating": 6.541,
+            "record": "10-12"
+        }
+    },
+    "J. Devilliers": {
+        "doubles": {
+            "rank": 25,
+            "points": 3450.0,
+            "rating": 6.672,
+            "record": "24-16"
+        },
+        "mixed": {
+            "rank": 14,
+            "points": 2850.0,
+            "record": "28-16"
+        },
+        "singles": {
+            "rank": 31,
+            "points": 1300.0,
+            "rating": 6.645,
+            "record": "9-10"
+        }
+    },
+    "N. Beasley": {
+        "doubles": {
+            "rank": 62,
+            "points": 950.0,
+            "rating": 6.05,
+            "record": "16-14"
+        },
+        "mixed": {
+            "rank": 84,
+            "points": 112.5,
+            "record": "9-6"
+        },
+        "singles": {
+            "rank": 31,
+            "points": 1300.0,
+            "rating": 6.118,
+            "record": "15-15"
+        }
+    },
+    "A. Harvey": {
+        "doubles": {
+            "rank": 102,
+            "points": 325.0,
+            "rating": 5.891,
+            "record": "13-10"
+        },
+        "mixed": {
+            "rank": null,
+            "points": null,
+            "record": null
+        },
+        "singles": {
+            "rank": 33,
+            "points": 1125.0,
+            "rating": 6.162,
+            "record": "31-11"
+        }
+    },
+    "R. Sherry": {
+        "doubles": {
+            "rank": 99,
+            "points": 375.0,
+            "rating": 5.633,
+            "record": "5-10"
+        },
+        "mixed": {
+            "rank": 77,
+            "points": 125.0,
+            "record": "2-9"
+        },
+        "singles": {
+            "rank": 35,
+            "points": 1062.5,
+            "rating": 6.062,
+            "record": "11-18"
+        }
+    },
+    "B. Hovenier": {
+        "doubles": {
+            "rank": 34,
+            "points": 1925.0,
+            "rating": 5.994,
+            "record": "24-21"
+        },
+        "mixed": {
+            "rank": 47,
+            "points": 692.5,
+            "record": "13-16"
+        },
+        "singles": {
+            "rank": 36,
+            "points": 1050.0,
+            "rating": 6.09,
+            "record": "16-21"
+        }
+    },
+    "T. Loong": {
+        "doubles": {
+            "rank": 18,
+            "points": 4800.0,
+            "rating": 6.521,
+            "record": "37-24"
+        },
+        "mixed": {
+            "rank": 29,
+            "points": 1200.0,
+            "record": "19-16"
+        },
+        "singles": {
+            "rank": 37,
+            "points": 987.5,
+            "rating": 6.287,
+            "record": "12-15"
+        }
+    },
+    "R. Whittaker": {
+        "doubles": {
+            "rank": 71,
+            "points": 687.5,
+            "rating": 5.886,
+            "record": "15-14"
+        },
+        "mixed": {
+            "rank": 103,
+            "points": 75.0,
+            "record": "11-10"
+        },
+        "singles": {
+            "rank": 38,
+            "points": 950.0,
+            "rating": 6.152,
+            "record": "23-14"
+        }
+    },
+    "C. Johns": {
+        "doubles": {
+            "rank": 3,
+            "points": 14300.0,
+            "rating": 6.553,
+            "record": "69-22"
+        },
+        "mixed": {
+            "rank": 19,
+            "points": 2325.0,
+            "record": "25-20"
+        },
+        "singles": {
+            "rank": null,
+            "points": null,
+            "rating": 6.967,
+            "record": "0-0"
+        }
+    },
+    "H. Patriquin": {
+        "doubles": {
+            "rank": 6,
+            "points": 13000.0,
+            "rating": 6.954,
+            "record": "67-22"
+        },
+        "mixed": {
+            "rank": 9,
+            "points": 5400.0,
+            "record": "50-24"
+        },
+        "singles": {
+            "rank": 40,
+            "points": 925.0,
+            "rating": 6.606,
+            "record": "14-14"
+        }
+    },
+    "A. Daescu": {
+        "doubles": {
+            "rank": 7,
+            "points": 12200.0,
+            "rating": 7.05,
+            "record": "61-14"
+        },
+        "mixed": {
+            "rank": 10,
+            "points": 4850.0,
+            "record": "41-16"
+        },
+        "singles": {
+            "rank": null,
+            "points": null,
+            "rating": 6.617,
+            "record": "0-0"
+        }
+    },
+    "D. Bar": {
+        "doubles": {
+            "rank": 9,
+            "points": 11000.0,
+            "rating": 6.769,
+            "record": "59-22"
+        },
+        "mixed": {
+            "rank": 6,
+            "points": 6650.0,
+            "record": "41-26"
+        },
+        "singles": {
+            "rank": null,
+            "points": null,
+            "rating": 7.014,
+            "record": "0-0"
+        }
+    },
+    "M. Wright": {
+        "doubles": {
+            "rank": 13,
+            "points": 9300.0,
+            "rating": 6.642,
+            "record": "48-23"
+        },
+        "mixed": {
+            "rank": 20,
+            "points": 2275.0,
+            "record": "22-17"
+        },
+        "singles": {
+            "rank": null,
+            "points": null,
+            "rating": null,
+            "record": "0-0"
+        }
+    },
+    "R. Newman": {
+        "doubles": {
+            "rank": 15,
+            "points": 6750.0,
+            "rating": 6.825,
+            "record": "30-17"
+        },
+        "mixed": {
+            "rank": 12,
+            "points": 4300.0,
+            "record": "27-15"
+        },
+        "singles": {
+            "rank": null,
+            "points": null,
+            "rating": 6.575,
+            "record": "0-0"
+        }
+    },
+    "J. Ignatowich": {
+        "doubles": {
+            "rank": 16,
+            "points": 5600.0,
+            "rating": 6.745,
+            "record": "32-24"
+        },
+        "mixed": {
+            "rank": 5,
+            "points": 7600.0,
+            "record": "38-22"
+        },
+        "singles": {
+            "rank": 80,
+            "points": 250.0,
+            "rating": 6.337,
+            "record": "3-4"
+        }
+    },
+    "Z. Navratil": {
+        "doubles": {
+            "rank": 19,
+            "points": 4725.0,
+            "rating": 6.535,
+            "record": "26-18"
+        },
+        "mixed": {
+            "rank": 26,
+            "points": 1587.5,
+            "record": "17-19"
+        },
+        "singles": {
+            "rank": 57,
+            "points": 500.0,
+            "rating": 6.402,
+            "record": "6-4"
+        }
+    },
+    "A. Ge": {
+        "doubles": {
+            "rank": 20,
+            "points": 4625.0,
+            "rating": 6.596,
+            "record": "27-20"
+        },
+        "mixed": {
+            "rank": 25,
+            "points": 1612.5,
+            "record": "19-18"
+        },
+        "singles": {
+            "rank": 43,
+            "points": 812.5,
+            "rating": 6.218,
+            "record": "14-12"
+        }
+    },
+    "C. Klinger": {
+        "doubles": {
+            "rank": 21,
+            "points": 4600.0,
+            "rating": 6.697,
+            "record": "31-15"
+        },
+        "mixed": {
+            "rank": 42,
+            "points": 787.5,
+            "record": "21-14"
+        },
+        "singles": {
+            "rank": null,
+            "points": null,
+            "rating": 6.585,
+            "record": "0-0"
+        }
+    },
+    "T. Wilson": {
+        "doubles": {
+            "rank": 23,
+            "points": 3600.0,
+            "rating": 6.904,
+            "record": "19-8"
+        },
+        "mixed": {
+            "rank": 8,
+            "points": 5800.0,
+            "record": "29-8"
+        },
+        "singles": {
+            "rank": null,
+            "points": null,
+            "rating": 6.504,
+            "record": "0-0"
+        }
+    },
+    "T. Rettenmaier": {
+        "doubles": {
+            "rank": 27,
+            "points": 3150.0,
+            "rating": 6.63,
+            "record": "24-20"
+        },
+        "mixed": {
+            "rank": 23,
+            "points": 1875.0,
+            "record": "18-20"
+        },
+        "singles": {
+            "rank": 44,
+            "points": 750.0,
+            "rating": 6.443,
+            "record": "9-11"
+        }
+    },
+    "C. Dawson": {
+        "doubles": {
+            "rank": 29,
+            "points": 2725.0,
+            "rating": 6.331,
+            "record": "20-20"
+        },
+        "mixed": {
+            "rank": 55,
+            "points": 600.0,
+            "record": "6-15"
+        },
+        "singles": {
+            "rank": 175,
+            "points": 25.0,
+            "rating": 5.703,
+            "record": "0-2"
+        }
+    },
+    "P. Smith": {
+        "doubles": {
+            "rank": 30,
+            "points": 2500.0,
+            "rating": 6.333,
+            "record": "18-17"
+        },
+        "mixed": {
+            "rank": 52,
+            "points": 637.5,
+            "record": "7-16"
+        },
+        "singles": {
+            "rank": null,
+            "points": null,
+            "rating": null,
+            "record": "0-0"
+        }
+    },
+    "A. Koller": {
+        "doubles": {
+            "rank": 32,
+            "points": 2350.0,
+            "rating": 6.486,
+            "record": "18-20"
+        },
+        "mixed": {
+            "rank": 36,
+            "points": 837.5,
+            "record": "12-13"
+        },
+        "singles": {
+            "rank": 60,
+            "points": 450.0,
+            "rating": 6.341,
+            "record": "4-10"
+        }
+    },
+    "T. Fought": {
+        "doubles": {
+            "rank": 35,
+            "points": 1750.0,
+            "rating": 6.264,
+            "record": "16-20"
+        },
+        "mixed": {
+            "rank": 28,
+            "points": 1287.5,
+            "record": "15-19"
+        },
+        "singles": {
+            "rank": 66,
+            "points": 387.5,
+            "rating": 6.057,
+            "record": "5-8"
+        }
+    },
+    "P. Teoni": {
+        "doubles": {
+            "rank": 35,
+            "points": 1750.0,
+            "rating": 6.199,
+            "record": "19-22"
+        },
+        "mixed": {
+            "rank": 50,
+            "points": 662.5,
+            "record": "10-22"
+        },
+        "singles": {
+            "rank": 59,
+            "points": 475.0,
+            "rating": 5.497,
+            "record": "1-15"
+        }
+    },
+    "I. Jakovljevic": {
+        "doubles": {
+            "rank": 38,
+            "points": 1700.0,
+            "rating": 6.177,
+            "record": "18-19"
+        },
+        "mixed": {
+            "rank": 43,
+            "points": 775.0,
+            "record": "12-17"
+        },
+        "singles": {
+            "rank": 41,
+            "points": 900.0,
+            "rating": 6.123,
+            "record": "12-15"
+        }
+    },
+    "B. French": {
+        "doubles": {
+            "rank": 38,
+            "points": 1700.0,
+            "rating": 5.928,
+            "record": "20-23"
+        },
+        "mixed": {
+            "rank": 57,
+            "points": 562.5,
+            "record": "9-20"
+        },
+        "singles": {
+            "rank": 68,
+            "points": 375.0,
+            "rating": 6.155,
+            "record": "4-8"
+        }
+    },
+    "W. Stone": {
+        "doubles": {
+            "rank": 38,
+            "points": 1700.0,
+            "rating": 6.02,
+            "record": "14-23"
+        },
+        "mixed": {
+            "rank": 36,
+            "points": 837.5,
+            "record": "11-19"
+        },
+        "singles": {
+            "rank": 57,
+            "points": 500.0,
+            "rating": 5.867,
+            "record": "3-12"
+        }
+    },
+    "D. De La Rosa": {
+        "doubles": {
+            "rank": 41,
+            "points": 1637.5,
+            "rating": 6.548,
+            "record": "18-16"
+        },
+        "mixed": {
+            "rank": 31,
+            "points": 1050.0,
+            "record": "15-16"
+        },
+        "singles": {
+            "rank": 129,
+            "points": 50.0,
+            "rating": 6.114,
+            "record": "0-1"
+        }
+    },
+    "C. Johnson": {
+        "doubles": {
+            "rank": 43,
+            "points": 1625.0,
+            "rating": 6.112,
+            "record": "15-18"
+        },
+        "mixed": {
+            "rank": 57,
+            "points": 562.5,
+            "record": "8-14"
+        },
+        "singles": {
+            "rank": null,
+            "points": null,
+            "rating": 5.988,
+            "record": "0-0"
+        }
+    },
+    "M. Emmrich": {
+        "doubles": {
+            "rank": 44,
+            "points": 1612.5,
+            "rating": 6.352,
+            "record": "18-15"
+        },
+        "mixed": {
+            "rank": 34,
+            "points": 937.5,
+            "record": "17-15"
+        },
+        "singles": {
+            "rank": null,
+            "points": null,
+            "rating": null,
+            "record": "0-0"
+        }
+    },
+    "C. Taylor": {
+        "doubles": {
+            "rank": 46,
+            "points": 1475.0,
+            "rating": 6.107,
+            "record": "16-21"
+        },
+        "mixed": {
+            "rank": 51,
+            "points": 650.0,
+            "record": "9-19"
+        },
+        "singles": {
+            "rank": 116,
+            "points": 75.0,
+            "rating": 5.941,
+            "record": "0-2"
+        }
+    },
+    "J. Johnson": {
+        "doubles": {
+            "rank": 2,
+            "points": 14600.0,
+            "rating": 7.115,
+            "record": "62-14"
+        },
+        "mixed": {
+            "rank": 2,
+            "points": 11600.0,
+            "record": "55-18"
+        },
+        "singles": {
+            "rank": 12,
+            "points": 3200.0,
+            "rating": 6.722,
+            "record": "21-13"
+        }
+    }
+}

@@ -1,0 +1,131 @@
+/* Center the leaderboard */
+
+.global-leader-page {
+    background: #121212;
+    min-height: 90vh;
+    padding: 2rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.Leaderboard-container {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.Leaderboard-container2 {
+    background: #1E1E1E;
+    height: 100%;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.top-social-leaderboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.leader-title {
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+}
+
+.player-container-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10%;
+    margin-inline: 20px;
+}
+
+
+
+.leader-row-titles {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.global-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.leader-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+    transition: background-color 0.2s ease;
+}
+
+.leader-row:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.leader-row:nth-child(1) {
+    background: rgba(76, 175, 80, 0.15);
+    border: 1px solid rgba(76, 175, 80, 0.3);
+}
+
+.leader-row:nth-child(2) {
+    background: rgba(76, 175, 80, 0.1);
+    border: 1px solid rgba(76, 175, 80, 0.2);
+}
+
+.leader-row:nth-child(3) {
+    background: rgba(76, 175, 80, 0.05);
+    border: 1px solid rgba(76, 175, 80, 0.1);
+}
+
+.left-leader {
+    color: #fff;
+    font-weight: 500;
+}
+
+.right-side3 {
+    color: #4CAF50;
+    font-weight: 500;
+}
+
+.toggle-btn{
+    width: max(10vw, 120px);
+    margin: 20px 10px;
+    padding: 10px 20px;
+}
+
+/* Make the list responsive */
+@media (max-width: 600px) {
+    .global-leader-page {
+        padding: 1rem;
+    }
+    
+    .Leaderboard-container2 {
+        padding: 1rem;
+    }
+    
+    .leader-row {
+        padding: 0.75rem;
+    }
+}

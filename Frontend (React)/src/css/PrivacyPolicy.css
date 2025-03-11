@@ -1,0 +1,127 @@
+.privacy-policy {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #ffffff;
+}
+
+.privacy-policy h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #4CAF50;
+}
+
+.policy-section {
+  margin-bottom: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: rgba(76, 175, 80, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.section-header:hover {
+  background: rgba(76, 175, 80, 0.2);
+}
+
+.section-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #4CAF50;
+}
+
+.toggle-icon {
+  font-size: 1.5rem;
+  color: #4CAF50;
+  transition: transform 0.3s ease;
+}
+
+.section-header.active .toggle-icon {
+  transform: rotate(180deg);
+}
+
+.section-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  padding: 0 1rem;
+}
+
+.section-content.active {
+  max-height: 1000px;
+  padding: 1rem;
+}
+
+.section-content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.section-content a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.section-content a:hover {
+  text-decoration: underline;
+}
+
+.about-dropdown {
+  margin-top: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.about-dropdown-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.about-dropdown-header:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.about-dropdown-header h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: #4CAF50;
+}
+
+.about-dropdown-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.about-dropdown-content.open {
+  max-height: 1000px;
+  padding: 1rem;
+}
+
+.about-dropdown-content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.about-dropdown-content a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.about-dropdown-content a:hover {
+  text-decoration: underline;
+} 
