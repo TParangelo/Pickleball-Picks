@@ -27,7 +27,6 @@ Pickleball-Picks is a full-stack application that allows users to make virtual p
 ### Frontend
 - React 18
 - React Router v6
-- Axios for API requests
 - JWT authentication
 - React Query for real-time updates
 - Responsive design (Desktop & Mobile)
